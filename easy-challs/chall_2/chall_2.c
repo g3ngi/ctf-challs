@@ -7,7 +7,7 @@
 
 int main(){
     char password[50];
-    char secret[50] = "flag{lesgoo_bisa_crack_pw_pake_gdb}"
+    char secret[50] = "flag{lesgoo_bisa_crack_pw_pake_gdb}";
 
     printf("Welcome to the Vault\n");
     printf("Please enter the vault password");
