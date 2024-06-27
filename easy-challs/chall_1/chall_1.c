@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// chall asm
+
 int add_modded(int a, int b){
     int c;
     int d;
@@ -9,6 +11,6 @@ int add_modded(int a, int b){
 }
 
 int main(){   
-    add(10, 25);
+    add_modded(10, 25);
     return 0;
 }
