@@ -1,6 +1,6 @@
 import java.util.Base64;
 
-public class chall_3_source {
+public class chall_4_source {
     public static void main(String args[]) {
         // algo: xor 0x54 jika ganjil, xor 0x64 jika genap -> base64 encode
         String plaintext = "FLAG{officially_missing_you}";
