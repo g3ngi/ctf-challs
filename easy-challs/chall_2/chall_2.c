@@ -8,19 +8,17 @@
 int main(){
     char password[50];
     char flag[50] = "flag{lesgoo_bisa_crack_pw_pake_gdb}";
-    char secret[50] = "arlott dmg >> arlott tank";
+    char secret[50] = "arlott_dmg_>>_arlott_tank";
 
     printf("Welcome to the Vault\n");
     printf("Please enter the vault password: ");
-    scanf("%s", password);
+    scanf("%s", password);    
 
     if(strcmp(secret, password) == 0){
         printf("congrats you're in, here's the flag !\n");
-        printf("%s", secret);
+        printf("%s\n", flag);
     } else{
         printf("wrong, please enter the correct password !\n");
-    }
-
-    
+    }    
     return 0;
 }
