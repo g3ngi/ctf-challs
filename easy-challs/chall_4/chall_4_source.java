@@ -11,8 +11,6 @@ public class chall_4_source {
         StringBuilder result = new StringBuilder();
 
         for(int i=0; i < plaintext.length(); i+=2){
-            char c = (char) (((char) plaintext.charAt(i) ^ 0x45) + 40);
-            // System.out.println("Before:" + plaintext.charAt(i) + " - After: " + c);
             x.append((char) (((char) plaintext.charAt(i) ^ 0x45) + 40));
         }
 
